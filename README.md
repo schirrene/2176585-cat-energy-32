@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Ирина Шихалева](https://up.htmlacademy.ru/adaptive/32/user/2176585).
-* Наставник: [Антон Варнавский] (https://htmlacademy.ru/profile/id223468).
+* Наставник: [Антон Варнавский](https://htmlacademy.ru/profile/id223468).
 
 ---
 
