@@ -17,7 +17,7 @@
           <span class="visually-hidden">Открыть меню</span>
         </button>
         <ul class="nav__list">
-          <li class="nav__item nav__item-active">
+          <li class="nav__item nav__item--active">
             <a class="nav__link">Главная</a>
           </li>
           <li class="nav__item">
@@ -37,12 +37,12 @@
       </section>
       <section class="product-types">
         <h2 class="visually-hidden">Примеры программ</h2>
-        <article class="product-card">
+        <article class="product-types__card product-card">
           <h3 class="product-card__title">Похудение</h3>
           <p class="product-card__description">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
           <a class="product-card__link" href="#">Каталог Slim</a>
         </article>
-        <article class="product-card">
+        <article class="product-types__card product-card">
           <h3 class="product-card__title">Набор массы</h3>
           <p class="product-card__description">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
           <a class="product-card__link" href="#">Каталог Pro</a>
@@ -82,11 +82,13 @@
         <img class="result__picture" src="" width="280" height="256" alt="Сравнение до и после">
       </section>
       <section class="contacts">
-        <h2 class="contacts__title">Приглашаем к сотрудничеству дилеров!</h2>
-        <address class="contacts__address">
-          <span class="contacts__text">ул. Большая Конюшенная, д. 19/8</span>
-          <span class="contact__text">Санкт-Петербург</span>
-        </address>
+        <div class="contacts__wrapper">
+          <h2 class="contacts__title">Приглашаем к сотрудничеству дилеров!</h2>
+          <address class="contacts__address">
+            <span class="contacts__text">ул. Большая Конюшенная, д. 19/8</span>
+            <span class="contact__text">Санкт-Петербург</span>
+          </address>
+        </div>
         <img class="contacts__map" src="" width="320" height="362" alt="Месторасположение офиса">
       </section>
     </main>
@@ -96,17 +98,17 @@
       </a>
       <ul class="footer__social social">
         <li class="social__item">
-          <a class="social__link social__link-vk" href="#">
+          <a class="social__link social__link--vk" href="#">
             <span class="visually-hidden">ВКонтакте</span>
           </a>
         </li>
         <li class="social__item">
-          <a class="social__link social__link-youtube" href="#">
+          <a class="social__link social__link--youtube" href="#">
             <span class="visually-hidden">Youtube</span>
           </a>
         </li>
         <li class="social__item">
-          <a class="social__link social__link-telegram" href="#">
+          <a class="social__link social__link--telegram" href="#">
             <span class="visually-hidden">Telegram</span>
           </a>
         </li>
